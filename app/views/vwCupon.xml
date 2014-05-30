@@ -1,0 +1,7 @@
+<Alloy>
+	<ScrollView id="sclCupon">
+		<ImageView id="imgCupon"  />
+			<Label id="lblDescripcion"></Label>
+			<Label id="lblRestrcion"></Label>
+	</ScrollView>
+</Alloy>

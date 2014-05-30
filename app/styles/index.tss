@@ -1,0 +1,10 @@
+".txtLogin":{
+	top: "5px",
+	width: "70%",
+	autocorrect: false,
+	returnKeyType: Titanium.UI.RETURNKEY_DONE 
+},
+".Login":{	
+	top: '5dp',
+	width: "60%"
+}

@@ -1,0 +1,150 @@
+<Alloy>
+	<ScrollView id="vwTodo" class="container">
+		<View id="vwContactosEmergencia">
+			<Label id="lblAgregar"  class="detTitulo" right="19%" top="0">Agregar Contacto</Label>
+			<ImageView id="imgAgregar" image="/images/add.png" width="13%" height="13%" right="5%" top="0" />
+			<TableView id="tbContactosFav" >
+				
+			</TableView>
+		</View>
+		  <TableView id="vwNumerosEmergencia">
+        	<TableViewSection headerTitle="Numeros de Emergencia">
+            	  <TableViewRow class="vwRow" numero="42093200" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">42 09 32 00</Label>
+   					 	<Label class="detNumero">Emergencias VRIM</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="52508221" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">52 50 82 21</Label>
+   					 	<Label class="detNumero">Auxilio Turistico</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="57683700" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">57 68 37 00</Label>
+   					 	<Label class="detNumero">Bomberos 1</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="068" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">068</Label>
+   					 	<Label class="detNumero">Bomberos 2</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="55575757" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">55 57 57 57</Label>
+   					 	<Label class="detNumero">Cruz Roja 1</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="56581111" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">56 58 11 11</Label>
+   					 	<Label class="detNumero"> Cruz Roja 2</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="55540612" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">55 54 06 12</Label>
+   					 	<Label class="detNumero">Control de Incendios</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="55547097" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">55 54 70 97</Label>
+   					 	<Label class="detNumero">Control de Incendios</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="56531369" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">56 53 13 69</Label>
+   					 	<Label class="detNumero">Control de Incendios</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="53468000" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">53 46 80 00 </Label>
+   					 	<Label class="detNumero">Deposito de Vehiculos</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="55547097" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">55 54 70 97</Label>
+   					 	<Label class="detNumero">Control de Incendios</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="5658111" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">56 58 11 11</Label>
+   					 	<Label class="detNumero">Locatel</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="56842142" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">56 84 21 42</Label>
+   					 	<Label class="detNumero">Policiá Federal Preventiva</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="52560606" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">52 56 06 06</Label>
+   					 	<Label class="detNumero">Policiá Federal Preventiva</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="52560606" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">52 56 06 06</Label>
+   					 	<Label class="detNumero">Policiá Federal Preventiva</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="56256700" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">56 25 67 00</Label>
+   					 	<Label class="detNumero">Profeco 1</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="55256700" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">55 25 67 00</Label>
+   					 	<Label class="detNumero">Profeco 2</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="5658111" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">56 58 11 11</Label>
+   					 	<Label class="detNumero">Locatel</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="060" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">060</Label>
+   					 	<Label class="detNumero">Radio Patrullas</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="080" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">080</Label>
+   					 	<Label class="detNumero">Radio Patrullas</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="51308000" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">51 30 80 00</Label>
+   					 	<Label class="detNumero">Robo de Vehiculos 1</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="51308646" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">51 30 86 46</Label>
+   					 	<Label class="detNumero">Robo de Vehiculos 2</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="52722694" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">52 72 26 94</Label>
+   					 	<Label class="detNumero">Red Monitoreo</Label>
+				 </TableViewRow>
+				  <TableViewRow class="vwRow" numero="52425100" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">52 42 51 00</Label>
+   					 	<Label class="detNumero">Seguridad Pública DF</Label>
+				 </TableViewRow>
+				 <TableViewRow class="vwRow" numero="55885100" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">55 88 51 00</Label>
+   					 	<Label class="detNumero">Seguridad Pública DF</Label>
+				 </TableViewRow>
+				 <TableViewRow class="vwRow" numero="55420117" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">55 42 01 17</Label>
+   					 	<Label class="detNumero">Sria. del Medio Ambiente</Label>
+				 </TableViewRow>
+				 <TableViewRow class="vwRow" numero="55103663" >
+            	  		<ImageView image="/images/phone.png" left="2%" width="15%" />
+   					 	<Label class="numero">55 10 36 63</Label>
+   					 	<Label class="detNumero">Sria. del Medio Ambiente</Label>
+				 </TableViewRow>
+       	 	</TableViewSection>
+        </TableView>
+	</ScrollView>
+</Alloy>

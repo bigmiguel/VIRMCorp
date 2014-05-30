@@ -1,0 +1,6 @@
+<Alloy>
+	<View  class="container" layout="vertical">
+		<Label id="lblDistancia"></Label>
+		<Label id="lblIndicacion"></Label>
+	</View>
+</Alloy>

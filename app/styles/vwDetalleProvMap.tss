@@ -1,0 +1,17 @@
+"#vwTodo" : {
+	width: '85%',
+	height:'50%',
+	layout: 'vertical',
+	zIndex: 999999,
+	backgroundColor: '#FAFAFA'
+},
+".vwDatos" : {
+	top: '1%',
+	width: '98%',
+	left: '1%',
+	height: '98%',
+	backgroundColor: '#FFF'
+},
+".lblDatos" : {
+	left: '3%'
+}

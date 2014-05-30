@@ -1,0 +1,22 @@
+<Alloy>
+	<Window id="wnDetalle" class="detalleCupon">
+		<ImageView id="imgClose" image="/images/close.png" />
+		<ScrollView class="detalleCupon">
+			<ScrollView id="vwDetalle">
+				<ImageView id="imgCupon" />
+				<Button id="btnRedimir">Redimir</Button>
+				<Label id="lblDescripcion" class="lblDetalle"></Label>
+				<Label id="lblRestricciones" class="lblDetalle"></Label>
+			</ScrollView>
+			<View id="vwTiendaMasCerca">
+				<Label id="lblTitulo"  class="lblMitad" top="5%" >Donde Usar</Label>	
+				<Label id="lblProveedor" class="lblMitad"></Label>	
+				<Label id="lblSucusal" class="lblMitad" top="50%"></Label>
+				<View id="vwMapa" ns="Alloy.Globals.Map">
+					
+				</View>	
+				<Button id="btnTiendas">Ver Sucursales</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

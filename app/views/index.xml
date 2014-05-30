@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container" navBarHidden="true">
+		<View id="vwTopIOS" />		
+		<View id="navview">													
+			<Label id="lblTitulo" class="Titulo" color="#FFF" backgroundColor="none" backgroundGradient="none"></Label>														
+		</View>	
+		 <ImageView id="image" image="/images/medicavrim.png" />
+		<View id="vwLogin"  layout="vertical">
+			<TextField id="txtNEmpleado" class="txtLogin" hintText="Numero de Tarjeta" ></TextField>
+			
+			<Button id="btnLogin" class="Login">Login</Button>
+			<Button id="btnMasTarde" class="Login">Recordar Despues</Button>
+		</View>	
+	</Window>
+</Alloy>

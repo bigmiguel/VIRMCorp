@@ -1,0 +1,34 @@
+<Alloy>
+	<Window id="wnSlideMenu" navBarHidden="true"  >
+		<View id="vwTopIOS" backgroundColor="#FFFFFF" top="0" />	
+		<View id="containerview">			
+				<View id="leftMenu" >
+					<ScrollView id="leftTableView" layout="vertical">
+						
+					</ScrollView>
+				</View>
+				<View id="rightMenu" visible="false">
+				
+				</View>		
+				<View id="movableview">
+					<View id="shadowview">
+						<View id="navview">							
+							<View id="btnMenu">
+								<Button id="imgMenu" />	
+							</View>
+							<View id="btnMenuDer" visible="false">
+								<Button id="imgMenuDer" />	
+							</View>								
+							<Label id="lblTitulo" class="Titulo" color="#FFFFFF" backgroundColor="none" backgroundGradient="none">Medica VRIM</Label>														
+						</View>						
+						<View id="contentview" moving="false" axis="0">
+							
+						</View>
+					</View>
+				</View>
+				<View id="vwCarga">
+					<ActivityIndicator id="cargando" class="cargando" zIndex="9999" message="Cargando..."></ActivityIndicator>
+				</View>
+		</View>		
+	</Window>
+</Alloy>

@@ -1,0 +1,21 @@
+"#tbCategorias" : {
+	backgroundColor: '#FFF'
+},
+"#sclCupon" : {
+  backgroundColor: '#FFF',
+  layout: 'vertical',
+  left: '2%',
+  width:'47%',
+  top: '1%',
+  shadow:{
+        shadowRadius:10,
+        shadowOpacity:0.5,
+        shadowOffset:{x:5, y:10},
+        shadowColor: '#000'
+   }
+},
+"#imgCupon":{
+	left: '10%',
+	width: '80%',
+	top: '1%'
+}

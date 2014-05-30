@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>
+		<View id="mapview" ns="Alloy.Globals.Map" zindex="99998" />
+		<ScrollView id="vwIndicaciones" zIndex="99999" layout="vertical">
+		</ScrollView>
+	</Window>
+</Alloy>

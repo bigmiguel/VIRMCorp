@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="wnContactos" class="container">
+		<ImageView id="imgClose" image="/images/close.png" />
+		<TableView id="tbContactos" top='0'>
+			
+		</TableView>
+	</Window>
+</Alloy>

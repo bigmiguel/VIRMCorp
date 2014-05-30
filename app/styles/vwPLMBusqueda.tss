@@ -1,0 +1,27 @@
+".vwRow" : {
+	height: '33.3%',
+	top: 0
+},
+".txtPLM" : {
+	 borderColor: "#FFF",
+	 width :'80%',
+	 height: '100%',
+	 top:0,
+	 left: '20%'
+},
+".imgPLM" : {
+	width: '15%',
+	left: '2.5%'
+},
+"#tbPLM" : {
+	width: '90%',
+	top : '3%',
+	height :'30%',
+	borderRadius : 5,
+	borderWidth: 1, 
+	borderColor: '#D0D0D2'
+},
+'#btnBuscar' : {
+	top: "3%",
+	width: '50%'
+}

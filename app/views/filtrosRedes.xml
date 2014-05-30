@@ -1,0 +1,32 @@
+<Alloy>
+	<ScrollView class='container' layout="vertical">
+		<View class="container" layout="vertical">
+		  <Label id="lblTitulo">Busqueda por Rango:</Label>
+		  <Label id="lblTRango">Rango:</Label>
+		  <Picker id="pckRango" selectionIndicator="true" useSpinner="true">
+          	  <PickerColumn id="column1">
+            		<PickerRow value="5" title="5 KM"/>
+                	<PickerRow value="10" title="10 KM"/>
+	                <PickerRow value="20" title="20 KM"/>
+	                <PickerRow value="30" title="30 KM"/>
+	            </PickerColumn>
+       	  </Picker>
+       	  <Label class="linea"></Label>
+		  <Label id="lblTEspecailidad">Especialidad:</Label>
+		  <Picker id="pckEspecialidad" selectionIndicator="true" useSpinner="true"></Picker>
+		  <Button id="btnBuscarMedico">Buscar</Button>
+		  <Label id="lblTituloEstado">Busqueda por Estado:</Label>
+		  <Label class="linea"></Label>
+		  <Label id="lblTEstado">Estado:</Label>
+		  <Picker id="pckEstado"></Picker>
+		  <Label class="linea"></Label>
+		  <Label id="lblTMunicipio">Municipio:</Label>
+		  <Picker id="pckMunicipio"></Picker>
+		  <Label id="lblTEspecailidadEstado">Especialidad:</Label>
+		  <Picker id="pckEspecialidadEstado" selectionIndicator="true" useSpinner="true"></Picker>
+		  
+		  <Button id="btnBuscarMedicoEstado">Buscar</Button>
+		</View>
+		<View height="10%" bottom="0"></View>
+	</ScrollView>
+</Alloy>

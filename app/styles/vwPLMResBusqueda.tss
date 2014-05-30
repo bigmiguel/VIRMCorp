@@ -1,0 +1,20 @@
+
+"#imgMenu": {
+	backgroundColor: 'none',
+	backgroundImage : '/images/back_win.png',
+	height : "75%",
+	left: '1%',
+	borderWidth: 0
+},
+"#btnMenu": {
+	backgroundColor:'none',	
+	left : 0,
+	top : "13%",
+	width : "25%",
+	height : "75%",
+	style : "none",
+	zIndex: 2
+},
+"#tbPLM" : {
+	top: 0
+}

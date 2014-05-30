@@ -1,0 +1,17 @@
+"#mapview" :{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	mapType: Alloy.Globals.Map.NORMAL_TYPE,
+	top: 0,
+	left: 0
+},
+"#vwIndicaciones" : {
+	borderColor: '#E6E6E6',
+	borderWidth: '.2dp',
+	color: '#FFFFFF',
+	zIndex: 99999,
+	height: '20%',
+	width: Ti.UI.FILL,
+	bottom: 0,
+	horizontalBounce: false
+}

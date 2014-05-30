@@ -1,0 +1,54 @@
+".detalleCupon":{
+	backgroundColor:'#FD5904',
+	layout: 'vertical'
+},
+"#vwDetalle":{
+	backgroundColor: '#FFF',
+	top: '1%',
+	width: '90%',
+	left: '5%',
+	height: "50%",
+	layout: 'vertical'
+},
+"#imgCupon": {
+	top: '2%',
+	width: '20%',
+	left: '40%'
+},
+".lblDetalle" : {
+	top: '5dp'
+},
+"#vwTiendaMasCerca":{
+	backgroundColor: '#FFF',
+	top: '3%',
+	width: '90%',
+	left: '5%',
+	height: "35%"
+},
+".lblMitad":{
+	width: '40%',
+	left: '5%',
+	top: '25%'
+},
+"#vwMapa" : {
+	top:'10%',
+	height: '80%',
+	left: "52.5%",
+	width: "45%",
+	backgroundColor: '#000',
+	enableZoomControls : false,
+	compassEnabled: false
+},
+"#btnRedimir" : {
+	top: "5%",
+	width: '60%',
+	height: "15%",
+	backgroundColor:'#FD5904'
+},
+"#btnTiendas" : {
+	bottom: "1%",
+	left: '1%',
+	width: '40%',
+	height: "15%",
+	backgroundColor:'#FD5904'
+}

@@ -1,0 +1,45 @@
+".container":{
+	 backgroundColor:'#FFFFFF'
+}
+,".tituloRed": {
+	backgroundColor: '#FFFFFF',
+	width: Ti.UI.FILL,
+	textAlign: 'center',
+	left: 0,
+	shadowColor: '#000000',
+    shadowOffset: {x:0,y:1}
+},
+"Picker":{
+	width: '90%',
+	left: 0
+},
+"Label":{
+	color:"#000",
+	width: Ti.UI.FILL,
+	left: '10dp'
+},
+"#btnBuscarMedico":{
+	color: '#FFFFFF',
+	top: '5dp',
+	left: '25%',
+	width: '50%',
+	borderColor:'#dcdcdc',
+	backgroundGradient:{ 
+        type:'linear', 
+        colors:[{ color:'#f9f9f9', position:0.0 }, { color:'#e9e9e9', position:1.0 }], 
+        backFillStart: true 
+    }
+},
+"#btnBuscarMedicoEstado":{
+	color: '#FFFFFF',
+	top: '5dp',
+	left: '25%',
+	width: '50%',
+	borderColor:'#dcdcdc',
+	backgroundGradient:{ 
+        type:'linear', 
+        colors:[{ color:'#f9f9f9', position:0.0 }, { color:'#e9e9e9', position:1.0 }], 
+        backFillStart: true 
+    }
+ }
+

@@ -1,0 +1,13 @@
+<Alloy>
+	<ScrollView id="vwTodo">
+		<View id="vwDireccion" class="vwDatos">
+			<Label id="lblProveedor" class="lblDatos" top="2%"></Label>
+			<Label id="lblDireccion" class="lblDatos" top="25%"></Label>
+			<ImageView id="imgComoLlegar" image="/images/clock.png" bottom="10%" width='10%' left="3%" />
+			<Label id="lblHorario" bottom='9.5%' left="14%">Cómo Llegar..</Label>
+			<ImageView id="imgComoLlegar" image="/images/ruta.png" bottom="3%" width='10%' left="3%" />
+			<Label id="lblComollegar" color="#FD5904" bottom="3%" left="14%">Cómo Llegar..</Label>
+		</View>
+	</ScrollView>
+	
+</Alloy>

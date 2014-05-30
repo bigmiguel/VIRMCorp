@@ -1,0 +1,43 @@
+<Alloy>
+<Window id="wnDetalleMed" statusBarStyle="Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT">
+		<ScrollView id="vwTodo" class="container">
+			<ImageView id="imgClose" image="/images/close.png" />
+			<Label id="lblNombre" class="lbl" >Nombre:</Label>
+			<ScrollView id="detNombre" class="scrDetalle">
+				<Label id="lblDetNombre" class="lblDet" >Nombre:</Label>
+			</ScrollView>
+				
+			<Label id="lblLab" class="lbl" >Laboratorio:</Label>
+			<ScrollView id="detLab" class="scrDetalle">
+				<Label id="lblDetLab" class="lblDet" >Laboratorio:</Label>
+			</ScrollView>
+			
+			<Label id="lblAplicacion" class="lbl" >Forma de aplicación:</Label>
+			<ScrollView id="detAplicacion" class="scrDetalle">
+				<Label id="lblDetAplicacion" class="lblDet" >Forma de aplicación:</Label>
+			</ScrollView>
+			
+			<Label id="lblSustancias" class="lbl" >Sustancias Activas:</Label>
+			<ScrollView id="detSustancias" class="scrDetalle">
+				<Label id="lblDetSustancias" class="lblDet" ></Label>
+			</ScrollView>
+			
+			<Label id="lblTerapeuticos" class="lbl" >Terapeuticos:</Label>
+			<ScrollView id="detTerapeuticos" class="scrDetalle">
+				<Label id="lblDetTerapeuticos" class="lblDet" ></Label>
+			</ScrollView>
+			
+			<Label id="lblCaracteristicas" class="lbl" >Características:</Label>
+			<TableView id="tbCaracteristicas">
+				
+			</TableView>
+		</ScrollView>
+		<ScrollView id="vwDetalle">
+			<ImageView id="imgCloseDetalle" image="/images/close.png" />
+			<Label id="lblDetAttr" top="10%" width="95%" left="2.5%"></Label>
+		</ScrollView>
+	    <View id="vwCarga">
+		 		<ActivityIndicator id="cargando" class="cargando" zIndex="9999" message="Cargando..."></ActivityIndicator>
+		 </View>
+	</Window>
+</Alloy>

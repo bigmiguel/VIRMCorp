@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="wnTiendas">
+		<View id="mapview" ns="Alloy.Globals.Map" >
+			<ImageView id="imgClose" image="/images/close.png"  />
+		</View>
+		<ScrollView id="vwIndicaciones" zIndex="99998" layout="vertical">
+		
+		</ScrollView>
+		<View id="vwCarga">
+				<ActivityIndicator id="cargando" class="cargando" zIndex="9999" message="Cargando..."></ActivityIndicator>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,8 @@
+<Alloy>
+	 <TableViewRow id="lblFila" class="vwRow">
+            <ImageView image="/images/user.png" left="2%" width="15%" />
+   			<Label id="lblNumero" class="numero"></Label>
+   			<Label id="lblDetalle" class="detNumero"></Label>
+   			<ImageView id="imgDelete" image="/images/delete.png" right="2%" width="15%" />
+	 </TableViewRow>
+</Alloy>

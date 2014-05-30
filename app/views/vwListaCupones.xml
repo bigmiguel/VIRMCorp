@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="wnCupones"  navBarHidden="true">		
+		<View top="0" layout="vertical">
+			<View id="vwTopIOS" />	
+			<View id="navview">	
+				<View id="btnMenu">
+					<Button id="imgMenu" />	
+				</View>									
+				<Label id="lblTitulo" class="Titulo" color="#FFF" backgroundColor="none" backgroundGradient="none">Cupones</Label>														
+			</View>	
+			  <ScrollView id="vwCupones" >
+			 	<View id="vwContCupones">
+			 		
+			 	</View>
+			  </ScrollView>
+		  </View>
+		  <View id="vwCarga">
+				<ActivityIndicator id="cargando" class="cargando" zIndex="9999" message="Cargando..."></ActivityIndicator>
+		 </View>
+	</Window>
+</Alloy>

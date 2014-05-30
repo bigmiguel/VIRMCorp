@@ -1,0 +1,11 @@
+android/ATTR_MINIFY=true
+android/ATTR_PROJECT_NAME=VIRMCorp
+android/abi=armeabi-v7a
+android/distribute_path=/Users/mbennetts/Documents/Publish APP
+android/key_password=
+android/keystore_alias=vrim
+android/keystore_password=medicall
+android/keystore_path=/Users/mbennetts/Documents/Certificados/SIVRIMkey.keystore
+android/recent_output=/Users/mbennetts/Documents/Publish APP
+android/sdk_version=4.1.2
+eclipse.preferences.version=1

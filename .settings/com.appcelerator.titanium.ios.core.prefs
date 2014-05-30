@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=true
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=VIRMCorp
+iosLaunchConfigurationAttributes/appid=com.si.vrimcorp
+iosLaunchConfigurationAttributes/certificate=Jorge A. Woolf Sepulveda (8V85R4DY35)
+iosLaunchConfigurationAttributes/keychain=
+iosLaunchConfigurationAttributes/sdk_version=7.0.3
+iosLaunchConfigurationAttributes/uuid=105BAE8C-3BA4-4CD2-96FB-61B398CA9681
+provisioning_profiles/development/105BAE8C-3BA4-4CD2-96FB-61B398CA9681/appid=com.si.vrimcorp
+provisioning_profiles/development/105BAE8C-3BA4-4CD2-96FB-61B398CA9681/name=DEV VRIM CORP
+provisioning_profiles/development/105BAE8C-3BA4-4CD2-96FB-61B398CA9681/uuid=105BAE8C-3BA4-4CD2-96FB-61B398CA9681
+provisioning_profiles/development/78927DB8-BB71-47B1-A4DA-C3FB28264669/appid=com.saludinteractiva.MedicallHome
+provisioning_profiles/development/78927DB8-BB71-47B1-A4DA-C3FB28264669/name=Desarrollo Medicallhome
+provisioning_profiles/development/78927DB8-BB71-47B1-A4DA-C3FB28264669/uuid=78927DB8-BB71-47B1-A4DA-C3FB28264669

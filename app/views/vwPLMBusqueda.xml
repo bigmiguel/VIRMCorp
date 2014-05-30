@@ -1,0 +1,19 @@
+<Alloy>
+		<View layout="vertical">	
+			<TableView id="tbPLM" >
+				<TableViewRow class="vwRow">
+					<ImageView image="/images/medicina.png" class="imgPLM" />
+					<TextField id="txtMedicamento" class="txtPLM" hintText="Medicamento" ></TextField>
+				</TableViewRow>
+				<TableViewRow class="vwRow">
+					<ImageView image="/images/sustancia.png" class="imgPLM" />
+					<TextField id="txtSustancia" class="txtPLM" hintText="Sustancia Activa" ></TextField>
+				</TableViewRow>
+				<TableViewRow class="vwRow">
+					<ImageView image="/images/lab.png" class="imgPLM" />
+					<TextField id="txtLaboratorio" class="txtPLM" hintText="Laboratorio" ></TextField>
+				</TableViewRow>
+			</TableView>
+			<Button id="btnBuscar">Buscar</Button>
+		</View>
+</Alloy>

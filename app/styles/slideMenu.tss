@@ -1,0 +1,78 @@
+"#leftMenu": {
+	top: "0dp",
+	left: "0dp",
+	width: "60%",
+	zIndex: "0",
+	backgroundColor : "#333333",
+	layout:"vertical"
+},
+"#rightMenu":{
+	top: "0dp",
+	right: "0dp",
+	width: "80%",
+	zIndex: "0",
+	backgroundGradient: {
+		   type: 'linear',
+        startPoint: { x: '100%', y: '70%' },
+        endPoint: { x: '100%', y: '100%' },
+        colors: [  { color: '#4E6EAD', offset: 0.01 }, { color: '#95ABD6', offset: 1.0 } ],
+    
+	},
+	layout:"vertical"
+},
+"#contentview": {
+	left : "0dp",
+	width : Ti.Platform.displayCaps.platformWidth,
+	height : Ti.UI.Fill,
+	top : "10%",
+	backgroundColor : 'white',
+	zindex: 2
+},
+"#shadowview": {
+	shadowColor:"black",
+    shadowOffset:{x:"0",y:"0"},
+    shadowRadius:"5"
+},
+"#btnMenu": {	
+	backgroundColor:'none',	
+	left : 0,
+	top : 0,
+	width : "40%",
+	height : "100%",
+	style : "none",
+	zIndex: 2
+},
+"#imgMenu": {
+	backgroundImage : '/images/ButtonMenu.png',
+	backgroundColor: 'none',	
+	width : "30%",
+	left: '2%',
+	borderWidth: 0,
+	zIndex: 1
+},
+"#btnMenuDer": {	
+	
+	backgroundColor:'none',	
+	right : 0,
+	top : 0,
+	width : "40%",
+	height : "100%",
+	style : "none",
+	zIndex: 2
+},
+"#imgMenuDer": {
+	backgroundImage : '/images/ButtonMenuDer.png',
+	backgroundColor: 'none',	
+	width : "30%",
+	right: '4%',
+	borderWidth: 0,
+	zIndex: 1
+},
+"#lblNombre":{
+	color:'#FFF',
+	left: '5%'
+},
+".lblHeaderMenu":{
+	color:'#FFF',
+	left: '10dp'
+}

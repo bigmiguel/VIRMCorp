@@ -1,0 +1,44 @@
+"#vwTodo" : {
+	  backgroundGradient: {
+        type: 'radial',
+        startPoint: { x: '50%', y: '50%' },
+        endPoint: { x: '50%', y: '50%' },
+        colors: [ '#00359C', '#3C5EA4'],
+        startRadius: '90%',
+        endRadius: 0,
+        backfillStart: true
+    }
+},
+".lbl" : {
+  left:'2%',
+  width : '98%',
+  color: '#FFF',
+  font: {fontWeight :'bold'}
+},
+".lblDet" : {
+  color: '#FFF',
+  top:0,
+  left:'2%'
+ }
+".scrDetalle" :{
+	height : '5%',
+	color: '#FFF'
+},
+"#imgCloseDetalle" : {
+	top:'2%',
+	right:'5%',
+	width: '15%'
+},
+"#vwDetalle" : {
+	backgroundColor: '#F2F2F2',
+	top: '100%',
+	width: '95%',
+	height: '70%',
+	borderRadius : 10
+},
+'#tbCaracteristicas' : {
+	height : '40%',
+	width: '90%',
+	left: '5%',
+	borderRadius : 10
+}

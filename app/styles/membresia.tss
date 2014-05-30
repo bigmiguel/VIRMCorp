@@ -1,0 +1,12 @@
+
+"#vwMembresia" : {
+  width: Ti.UI.FILL,
+  height: Ti.UI.FILL
+},
+"#lblMembresia" : {
+ 	color: '#FFF'
+},
+"#lblTitular" :{
+	color:'#FFF'
+}
+

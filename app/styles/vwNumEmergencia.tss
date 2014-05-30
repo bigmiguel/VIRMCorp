@@ -1,0 +1,34 @@
+"#vwTodo" : {
+	backgroundColor: '#F9F4F4'
+},
+"#tbContactosFav" : {
+	top: '15%',
+	height: '80%'
+},
+"#vwContactosEmergencia" : {
+	backgroundColor : '#FFF',
+	height : '50%',
+	top:'2%'
+},
+"#vwNumerosEmergencia" : {
+	height: '45%',
+	top:'2%'
+},
+".vwRow" : {
+	height : '20%',
+	top: 0
+},
+".numero" : {
+	left: '20%',
+	top: '10%',
+	font : { fontSize: "13%"}
+},
+".detNumero" : {
+	top: '60%',
+	left : '50%',
+	color:'#A9ABC4',
+	font : { fontSize: "12%", fontWeight :'bold', font: 'Segoe UI' } 
+},
+".detTitulo" : {
+	font : { fontSize: "15%", fontWeight :'bold', font: 'Segoe UI' }
+}
